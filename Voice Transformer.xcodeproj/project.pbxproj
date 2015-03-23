@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC26F7D81AB636BE00AF40F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC26F7D71AB636BE00AF40F6 /* AppDelegate.swift */; };
+		CC26F7DA1AB636BE00AF40F6 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC26F7D91AB636BE00AF40F6 /* RecordSoundsViewController.swift */; };
+		CC26F7E21AB636BE00AF40F6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC26F7E01AB636BE00AF40F6 /* LaunchScreen.xib */; };
+		CC26F7EE1AB636BF00AF40F6 /* Voice_TransformerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC26F7ED1AB636BF00AF40F6 /* Voice_TransformerTests.swift */; };
+		CC26F7F81AB6484600AF40F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC26F7F71AB6484600AF40F6 /* Images.xcassets */; };
+		CC26F7FC1AB7B6D200AF40F6 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC26F7FB1AB7B6D200AF40F6 /* PlaySoundsViewController.swift */; };
+		CC26F8011AB8961E00AF40F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC26F7FF1AB8961E00AF40F6 /* Main.storyboard */; };
+		CC26F8031AB899F600AF40F6 /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC26F8021AB899F600AF40F6 /* RecordedAudio.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC26F7E81AB636BF00AF40F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC26F7CA1AB636BE00AF40F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC26F7D11AB636BE00AF40F6;
+			remoteInfo = "Voice Transformer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC26F7D21AB636BE00AF40F6 /* Voice Transformer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Voice Transformer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC26F7D61AB636BE00AF40F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC26F7D71AB636BE00AF40F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC26F7D91AB636BE00AF40F6 /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
+		CC26F7E11AB636BE00AF40F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CC26F7E71AB636BF00AF40F6 /* Voice TransformerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Voice TransformerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC26F7EC1AB636BF00AF40F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC26F7ED1AB636BF00AF40F6 /* Voice_TransformerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voice_TransformerTests.swift; sourceTree = "<group>"; };
+		CC26F7F71AB6484600AF40F6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CC26F7FB1AB7B6D200AF40F6 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlaySoundsViewController.swift; path = ../PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		CC26F8001AB8961E00AF40F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC26F8021AB899F600AF40F6 /* RecordedAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordedAudio.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC26F7CF1AB636BE00AF40F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC26F7E41AB636BF00AF40F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC26F7C91AB636BE00AF40F6 = {
+			isa = PBXGroup;
+			children = (
+				CC26F7D41AB636BE00AF40F6 /* Voice Transformer */,
+				CC26F7EA1AB636BF00AF40F6 /* Voice TransformerTests */,
+				CC26F7D31AB636BE00AF40F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC26F7D31AB636BE00AF40F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC26F7D21AB636BE00AF40F6 /* Voice Transformer.app */,
+				CC26F7E71AB636BF00AF40F6 /* Voice TransformerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC26F7D41AB636BE00AF40F6 /* Voice Transformer */ = {
+			isa = PBXGroup;
+			children = (
+				CC26F7D71AB636BE00AF40F6 /* AppDelegate.swift */,
+				CC26F7D91AB636BE00AF40F6 /* RecordSoundsViewController.swift */,
+				CC26F8021AB899F600AF40F6 /* RecordedAudio.swift */,
+				CC26F7FB1AB7B6D200AF40F6 /* PlaySoundsViewController.swift */,
+				CC26F7FF1AB8961E00AF40F6 /* Main.storyboard */,
+				CC26F7F71AB6484600AF40F6 /* Images.xcassets */,
+				CC26F7E01AB636BE00AF40F6 /* LaunchScreen.xib */,
+				CC26F7D51AB636BE00AF40F6 /* Supporting Files */,
+			);
+			path = "Voice Transformer";
+			sourceTree = "<group>";
+		};
+		CC26F7D51AB636BE00AF40F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC26F7D61AB636BE00AF40F6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC26F7EA1AB636BF00AF40F6 /* Voice TransformerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC26F7ED1AB636BF00AF40F6 /* Voice_TransformerTests.swift */,
+				CC26F7EB1AB636BF00AF40F6 /* Supporting Files */,
+			);
+			path = "Voice TransformerTests";
+			sourceTree = "<group>";
+		};
+		CC26F7EB1AB636BF00AF40F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC26F7EC1AB636BF00AF40F6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC26F7D11AB636BE00AF40F6 /* Voice Transformer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC26F7F11AB636BF00AF40F6 /* Build configuration list for PBXNativeTarget "Voice Transformer" */;
+			buildPhases = (
+				CC26F7CE1AB636BE00AF40F6 /* Sources */,
+				CC26F7CF1AB636BE00AF40F6 /* Frameworks */,
+				CC26F7D01AB636BE00AF40F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Voice Transformer";
+			productName = "Voice Transformer";
+			productReference = CC26F7D21AB636BE00AF40F6 /* Voice Transformer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC26F7E61AB636BF00AF40F6 /* Voice TransformerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC26F7F41AB636BF00AF40F6 /* Build configuration list for PBXNativeTarget "Voice TransformerTests" */;
+			buildPhases = (
+				CC26F7E31AB636BF00AF40F6 /* Sources */,
+				CC26F7E41AB636BF00AF40F6 /* Frameworks */,
+				CC26F7E51AB636BF00AF40F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC26F7E91AB636BF00AF40F6 /* PBXTargetDependency */,
+			);
+			name = "Voice TransformerTests";
+			productName = "Voice TransformerTests";
+			productReference = CC26F7E71AB636BF00AF40F6 /* Voice TransformerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC26F7CA1AB636BE00AF40F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Halfspace;
+				TargetAttributes = {
+					CC26F7D11AB636BE00AF40F6 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					CC26F7E61AB636BF00AF40F6 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = CC26F7D11AB636BE00AF40F6;
+					};
+				};
+			};
+			buildConfigurationList = CC26F7CD1AB636BE00AF40F6 /* Build configuration list for PBXProject "Voice Transformer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC26F7C91AB636BE00AF40F6;
+			productRefGroup = CC26F7D31AB636BE00AF40F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC26F7D11AB636BE00AF40F6 /* Voice Transformer */,
+				CC26F7E61AB636BF00AF40F6 /* Voice TransformerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC26F7D01AB636BE00AF40F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC26F7F81AB6484600AF40F6 /* Images.xcassets in Resources */,
+				CC26F7E21AB636BE00AF40F6 /* LaunchScreen.xib in Resources */,
+				CC26F8011AB8961E00AF40F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC26F7E51AB636BF00AF40F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC26F7CE1AB636BE00AF40F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC26F8031AB899F600AF40F6 /* RecordedAudio.swift in Sources */,
+				CC26F7DA1AB636BE00AF40F6 /* RecordSoundsViewController.swift in Sources */,
+				CC26F7FC1AB7B6D200AF40F6 /* PlaySoundsViewController.swift in Sources */,
+				CC26F7D81AB636BE00AF40F6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC26F7E31AB636BF00AF40F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC26F7EE1AB636BF00AF40F6 /* Voice_TransformerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC26F7E91AB636BF00AF40F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC26F7D11AB636BE00AF40F6 /* Voice Transformer */;
+			targetProxy = CC26F7E81AB636BF00AF40F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC26F7E01AB636BE00AF40F6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC26F7E11AB636BE00AF40F6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		CC26F7FF1AB8961E00AF40F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC26F8001AB8961E00AF40F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC26F7EF1AB636BF00AF40F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC26F7F01AB636BF00AF40F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC26F7F21AB636BF00AF40F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Voice Transformer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC26F7F31AB636BF00AF40F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Voice Transformer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CC26F7F51AB636BF00AF40F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Voice TransformerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voice Transformer.app/Voice Transformer";
+			};
+			name = Debug;
+		};
+		CC26F7F61AB636BF00AF40F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Voice TransformerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voice Transformer.app/Voice Transformer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC26F7CD1AB636BE00AF40F6 /* Build configuration list for PBXProject "Voice Transformer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC26F7EF1AB636BF00AF40F6 /* Debug */,
+				CC26F7F01AB636BF00AF40F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC26F7F11AB636BF00AF40F6 /* Build configuration list for PBXNativeTarget "Voice Transformer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC26F7F21AB636BF00AF40F6 /* Debug */,
+				CC26F7F31AB636BF00AF40F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC26F7F41AB636BF00AF40F6 /* Build configuration list for PBXNativeTarget "Voice TransformerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC26F7F51AB636BF00AF40F6 /* Debug */,
+				CC26F7F61AB636BF00AF40F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC26F7CA1AB636BE00AF40F6 /* Project object */;
+}
